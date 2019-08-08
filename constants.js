@@ -252,8 +252,8 @@ function defineColors(){    // Since p5 color() function doesn't work until setu
     COLORS.storm[EXTROP] = color(192,192,192);
     COLORS.storm[TROPWAVE] = color(128,204,255);
     COLORS.storm[TROP] = {};
-    COLORS.storm[TROP][-2] = color(128,204,255);        // TD //
-	COLORS.storm[TROP][-1] = color(94,186,255);        // TD //
+    COLORS.storm[TROP][-2] = color(128,204,255);       // UNKNOWN //
+   COLORS.storm[TROP][-1] = color(94,186,255);         // TD //
     COLORS.storm[TROP][0] = color(0,250,244);          // TS //
     COLORS.storm[TROP][1] = color(255,255,204);        // C1 //
     COLORS.storm[TROP][2] = color(255,231,117);        // C2 //
